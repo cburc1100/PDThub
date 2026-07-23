@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .markdown-body p {
+    margin-bottom: 1rem;
+  }
+  .markdown-body ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .markdown-body li {
+    margin-bottom: 0.5rem;
+  }
+  .markdown-body ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .markdown-body strong {
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
