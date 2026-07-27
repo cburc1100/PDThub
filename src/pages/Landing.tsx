@@ -20,7 +20,7 @@ export default function Landing({ onStartPresentation, onStartKnowledgeBase }: L
               <span className="text-blue-600">Training Program</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Explore key concepts in collaboration, mindset, and personal growth for the modern IT workspace.
             </p>
           </div>
 

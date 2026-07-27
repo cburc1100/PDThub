@@ -6,4 +6,6 @@ export interface SlideData {
   title: string;
   heading: React.ReactNode;
   desc: React.ReactNode;
+  imageUrl?: string;
+  imageOpacity?: number;
 }

@@ -103,7 +103,7 @@ export default function Presentation({ onExit }: PresentationProps) {
           {`Slide ${activeSection + 1} of ${slides.length}: ${slides[activeSection].title}`}
         </div>
 
-        <Header onExit={onExit} />
+        <Header onExit={onExit} activeSection={activeSection} slides={slides} />
 
         {/* Scrollable Main Content */}
         <main 
