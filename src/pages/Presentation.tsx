@@ -96,7 +96,7 @@ export default function Presentation({ onExit }: PresentationProps) {
 
   return (
     <div className="h-screen w-full bg-white box-border p-0 m-0 overflow-hidden">
-      <div className="h-full w-full border-4 md:border-8 border-white shadow-inner bg-slate-50 relative flex flex-col font-sans text-slate-900">
+      <div className="h-full w-full bg-slate-50 relative flex flex-col font-sans text-slate-900">
         
         {/* Screen Reader Announcement for Slide Changes */}
         <div aria-live="assertive" className="sr-only">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { SlideData } from '../types';
+import { QRCodeSVG } from 'qrcode.react';
 
 export const slides: SlideData[] = [
   {
@@ -304,6 +305,12 @@ export const slides: SlideData[] = [
             </a>
           </li>
         </ul>
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 w-full sm:w-auto">
+          <span className="text-base md:text-lg font-semibold text-slate-700 text-center">Scan to visit on your phone:</span>
+          <div className="p-4 bg-white rounded-xl shadow-sm border border-slate-200">
+            <QRCodeSVG value="https://cburc1100.github.io/PDThub/" size={160} />
+          </div>
+        </div>
       </div>
     ),
   },
