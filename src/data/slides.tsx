@@ -19,33 +19,33 @@ export const slides: SlideData[] = [
         <ul className="space-y-3 text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-medium w-full max-w-xl xl:max-w-3xl 2xl:max-w-5xl">
           <li className="flex w-full">
             <a 
-              href="#heading-format-and-design" 
+              href="#heading-growth-mindset" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 2: Format and Design Choices"
+              aria-label="Go to slide 2: Growth vs Fixed Mindset"
             >
-              <span className="pb-1 pr-2 leading-tight">Format and Design Choices</span>
+              <span className="pb-1 pr-2 leading-tight">Growth vs Fixed Mindset</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">2</span>
             </a>
           </li>
           <li className="flex w-full">
             <a 
-              href="#heading-growth-mindset" 
+              href="#heading-emotional-intelligence" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 3: Growth vs Fixed Mindset"
+              aria-label="Go to slide 3: Emotional Intelligence"
             >
-              <span className="pb-1 pr-2 leading-tight">Growth vs Fixed Mindset</span>
+              <span className="pb-1 pr-2 leading-tight">Emotional Intelligence</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">3</span>
             </a>
           </li>
           <li className="flex w-full">
             <a 
-              href="#heading-emotional-intelligence" 
+              href="#heading-maslow-needs" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 4: Emotional Intelligence"
+              aria-label="Go to slide 4: Hierarchy of Needs"
             >
-              <span className="pb-1 pr-2 leading-tight">Emotional Intelligence</span>
+              <span className="pb-1 pr-2 leading-tight">Hierarchy of Needs</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">4</span>
             </a>
@@ -63,33 +63,33 @@ export const slides: SlideData[] = [
           </li>
           <li className="flex w-full">
             <a 
-              href="#heading-maslow-needs" 
+              href="#heading-time-management" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 6: Hierarchy of Needs"
+              aria-label="Go to slide 6: Time Management"
             >
-              <span className="pb-1 pr-2 leading-tight">Hierarchy of Needs</span>
+              <span className="pb-1 pr-2 leading-tight">Time Management</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">6</span>
             </a>
           </li>
           <li className="flex w-full">
             <a 
-              href="#heading-time-management" 
+              href="#heading-why-this-matters" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 7: Time Management"
+              aria-label="Go to slide 7: Why This Matters"
             >
-              <span className="pb-1 pr-2 leading-tight">Time Management</span>
+              <span className="pb-1 pr-2 leading-tight">Why This Matters</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">7</span>
             </a>
           </li>
           <li className="flex w-full">
             <a 
-              href="#heading-why-this-matters" 
+              href="#heading-format-and-design" 
               className="flex w-full items-end group text-slate-800 hover:text-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded p-1 -m-1"
-              aria-label="Go to slide 8: Why This Matters"
+              aria-label="Go to slide 8: Format and Design Choices"
             >
-              <span className="pb-1 pr-2 leading-tight">Why This Matters</span>
+              <span className="pb-1 pr-2 leading-tight">Format and Design Choices</span>
               <span className="flex-1 border-b-2 md:border-b-[3px] border-dotted border-black mb-2 group-hover:border-blue-400 opacity-70"></span>
               <span className="font-bold text-black group-hover:text-blue-600 pb-1 pl-2">8</span>
             </a>
@@ -110,35 +110,10 @@ export const slides: SlideData[] = [
     ),
   },
   {
-    id: 'format-and-design',
-    imageUrl: 'https://images.unsplash.com/photo-1553484771-371a605b060b?q=80&w=2000&auto=format&fit=crop',
-    imageOpacity: 0.45,
-    num: '02',
-    title: 'Format and Design Choices',
-    heading: (
-      <>
-        Format and <br />
-        <span className="text-blue-600">Design Choices</span>
-      </>
-    ),
-    desc: (
-      <div className="space-y-4">
-        <ul className="list-disc pl-6 space-y-4">
-          <li>
-            Why did I choose this format?
-          </li>
-          <li>
-            Why did I design it this way?
-          </li>
-        </ul>
-      </div>
-    ),
-  },
-  {
     id: 'growth-mindset',
     imageUrl: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?q=80&w=2000&auto=format&fit=crop',
     imageOpacity: 0.45,
-    num: '03',
+    num: '02',
     title: 'Growth vs Fixed Mindset',
     heading: (
       <>
@@ -159,7 +134,7 @@ export const slides: SlideData[] = [
   {
     id: 'emotional-intelligence',
     imageUrl: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=2000&auto=format&fit=crop',
-    num: '04',
+    num: '03',
     title: 'Emotional Intelligence',
     heading: (
       <>
@@ -175,6 +150,29 @@ export const slides: SlideData[] = [
           <li><strong>Self-Management:</strong> Regulating your response to stress.</li>
           <li><strong>Social Awareness:</strong> Empathizing and understanding others' emotions.</li>
           <li><strong>Relationship Management:</strong> Handling conflict and collaborating effectively.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: 'maslow-needs',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Students_Engaged_in_Critical_Thinking_Activities.jpg',
+    imageOpacity: 0.45,
+    num: '04',
+    title: 'Hierarchy of Needs',
+    heading: (
+      <>
+        Maslow & Me <br />
+        <span className="text-blue-600">(Hierarchy of Needs)</span>
+      </>
+    ),
+    desc: (
+      <div className="space-y-4">
+        <p>A psychological framework that outlines the conditions necessary for individuals to thrive at work.</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Physiological & Safety:</strong> Basic needs like physical health, rest, job security, and a safe work environment.</li>
+          <li><strong>Social & Esteem:</strong> Belonging, teamwork, respect, and recognition from peers and leadership.</li>
+          <li><strong>Self-Actualization:</strong> Reaching your full potential, creativity, and career growth.</li>
         </ul>
       </div>
     ),
@@ -204,33 +202,10 @@ export const slides: SlideData[] = [
     ),
   },
   {
-    id: 'maslow-needs',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Students_Engaged_in_Critical_Thinking_Activities.jpg',
-    imageOpacity: 0.45,
-    num: '06',
-    title: 'Hierarchy of Needs',
-    heading: (
-      <>
-        Maslow & Me <br />
-        <span className="text-blue-600">(Hierarchy of Needs)</span>
-      </>
-    ),
-    desc: (
-      <div className="space-y-4">
-        <p>A psychological framework that outlines the conditions necessary for individuals to thrive at work.</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Physiological & Safety:</strong> Basic needs like physical health, rest, job security, and a safe work environment.</li>
-          <li><strong>Social & Esteem:</strong> Belonging, teamwork, respect, and recognition from peers and leadership.</li>
-          <li><strong>Self-Actualization:</strong> Reaching your full potential, creativity, and career growth.</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
     id: 'time-management',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Alarm_clock_on_a_chair_%28Unsplash%29.jpg',
     imageOpacity: 0.45,
-    num: '07',
+    num: '06',
     title: 'Time Management',
     heading: (
       <>
@@ -254,7 +229,7 @@ export const slides: SlideData[] = [
     id: 'why-this-matters',
     imageUrl: 'https://images.unsplash.com/photo-1590402494587-44b71d7772f6?q=80&w=2000&auto=format&fit=crop',
     imageOpacity: 0.45,
-    num: '08',
+    num: '07',
     title: 'Why This Matters',
     heading: (
       <>
@@ -270,6 +245,31 @@ export const slides: SlideData[] = [
           </li>
           <li>
             Why did my personal experiences shape my choices?
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: 'format-and-design',
+    imageUrl: 'https://images.unsplash.com/photo-1553484771-371a605b060b?q=80&w=2000&auto=format&fit=crop',
+    imageOpacity: 0.45,
+    num: '08',
+    title: 'Format and Design Choices',
+    heading: (
+      <>
+        Format and <br />
+        <span className="text-blue-600">Design Choices</span>
+      </>
+    ),
+    desc: (
+      <div className="space-y-4">
+        <ul className="list-disc pl-6 space-y-4">
+          <li>
+            Why did I choose this format?
+          </li>
+          <li>
+            Why did I design it this way?
           </li>
         </ul>
       </div>
